@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring BME68x
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_BME68x_SPI	KEYWORD1
+DFRobot_BME68x_I2C	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+startConvert	KEYWORD2
+update	KEYWORD2
+supportIAQ	KEYWORD2
+iaqUpdate	KEYWORD2
+isIAQReady	KEYWORD2
+setGasHeater	KEYWORD2
+readTempture	KEYWORD2
+readHumidity	KEYWORD2
+readPressure	KEYWORD2
+readGas	KEYWORD2
+readAltitude	KEYWORD2
+readGasResistance	KEYWORD2
+reaCalibratedAltitude	KEYWORD2
