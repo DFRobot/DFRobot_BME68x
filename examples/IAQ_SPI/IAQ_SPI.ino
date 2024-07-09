@@ -104,8 +104,8 @@ void loop()
         else Serial.println(" very bad");
       } else {
         Serial.println("IAQ not ready, please wait about 5 minutes");
-        Serial.print("IAQ not ready, You will have to wait ");
-        Serial.print((int)(305000-millis())/1000);
+        Serial.print("IAQ not ready, You have been wait ");
+        Serial.print((int)(millis())/1000);
         Serial.println(" seconds");
       }
     }
