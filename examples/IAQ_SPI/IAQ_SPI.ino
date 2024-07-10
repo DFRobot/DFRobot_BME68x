@@ -1,7 +1,7 @@
 /*!
  * @file IAQ_SPI.ino
  * @brief Connect bme68x 4 wires SPI interface with your board (please reference board compatibility).
- * @n BME68x cs pin connect to D3 on esp8266 and esp32 board, on AVR board is IO 3.
+ * @n BME68x cs pin connect to D3 on FireBeetle esp8266 
  * @n Temprature, Humidity, pressure, altitude, calibrated altitude, gas resistance and IAQ data will be printed via serial.
  * @note This demo only support ESP8266 MCU
  *
